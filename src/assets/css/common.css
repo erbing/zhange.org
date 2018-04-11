@@ -1,0 +1,35 @@
+@import 'mixins.css';
+@import 'vars.css';
+
+.pretty-scrollbar {
+  @mixin pretty-scrollbar;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  color: black;
+  border: none;
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .3s ease;
+
+  &:hover {
+    background-color: white;
+  }
+
+  & .icon {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+}

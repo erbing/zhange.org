@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+"<div class=\\"alert info\\">
+<p><alert-icon name=\\"alert\\" /></strong>This is a <code>info</code>!</p>
+</div>
+<div class=\\"alert warning\\">
+<p><alert-icon name=\\"alert\\" /></strong>This is a &lt;code&gt;warning&lt;/code&gt;!</p>
+</div>
+<div class=\\"alert success\\">
+<p><alert-icon name=\\"check\\" /></strong>This is <strong>ok</strong>!</p>
+</div>
+<div class=\\"alert note\\">
+<p><alert-icon name=\\"alert\\" /></strong>This is just a <em>note</em>!</p>
+</div>
+"
+`;
+
+exports[`multiple paragraph 1`] = `
+"<div class=\\"alert info\\">
+<p><alert-icon name=\\"alert\\" /></strong>hehe</p>
+<p>nah</p>
+</div>
+"
+`;
+
+exports[`no matching 1`] = `
+"<blockquote>
+<p><strong>Info</strong> : hehe</p>
+</blockquote>
+<blockquote>
+<p>nah</p>
+</blockquote>
+"
+`;

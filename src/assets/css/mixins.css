@@ -1,0 +1,14 @@
+@import "vars.css";
+
+@define-mixin pretty-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+  }
+  &::-webkit-scrollbar-track {
+    background: #f5f3f7;
+  }
+}
